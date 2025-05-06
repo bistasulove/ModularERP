@@ -1,0 +1,30 @@
+# Ignore build outputs
+bin/
+obj/
+*.user
+*.suo
+
+# Ignore Rider/VSCode settings
+.idea/
+.vscode/
+
+# Ignore EF Core migration build cache
+Migrations/
+
+# Ignore local config
+*.db
+*.sqlite
+auth.db
+
+# ASP.NET user secrets
+secrets.json
+
+# Dotnet tools
+*.DotSettings.user
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
