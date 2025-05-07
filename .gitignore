@@ -1,6 +1,7 @@
 # Ignore build outputs
 bin/
 obj/
+Logs/
 *.user
 *.suo
 
